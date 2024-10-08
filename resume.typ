@@ -30,7 +30,7 @@
   name: "Legato Security",
   location: "Salt Lake City, UT",
   date: "March 2024 - Present",
-  [Investigating Jira security ticketsa and Analyzing security threats],
+  [Investigating Jira security tickets and analyzing security threats],
   [Work with scripts to automate processes],
   [se of multiple query languages (Crowdstrike, Sumo, etc)],
   [Use of tools such as, Crowdstrike, Cortex, Sentinel One, etc],
@@ -72,7 +72,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, FQL (Crowdstrike), Sumo Query Language"
+  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (Crowdstrike), Sumo Query Language, SQL"
 )
 #skill_item(
   category: "Cybersecurity Consoles",
@@ -85,4 +85,8 @@
 #skill_item(
   category: "Libraries",
   skills: "pandas, NumPy, Matplotlib"
+)
+#skill_item(
+  category: "Soft Skills",
+  skills: "Communication, Customer Service, Documentation, Inventory, Money Management/Handling, Presentation Skills, Teaching, Teamwork, Time Management"
 )
