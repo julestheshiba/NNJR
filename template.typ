@@ -13,7 +13,7 @@
     size: 11pt,
       font: "New Computer Modern",
   )
-
+  
   body
 }
 
