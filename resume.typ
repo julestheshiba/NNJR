@@ -6,7 +6,7 @@
   name: "Will Metz",
   phone: "415-328-9921 ",
   email: "u1427699@utah.edu",
-  linkedin: "linkedin.com/in/will-metz-9287062ab/",
+  linkedin: "linkedin.com/in/will-metz-9287062ab",
   site: "github.com/julestheshiba",
 )
 
@@ -61,22 +61,12 @@
 
 #resume_heading("Projects")
 #project_item(
-  name: "Gitlytics",
-  skills: "Python, Flask, React, PostgreSQL, Docker",
-  date: "June 2020 - Present",
-  [Developed a full-stack web application using with Flask serving a REST API with React as the frontend],
-  [Implemented GitHub OAuth to get data from user’s repositories],
-  [Visualized GitHub data to show collaboration],
-  [Used Celery and Redis for asynchronous tasks]
-)
-#project_item(
-  name: "Simple Paintball",
-  skills: "Spigot API, Java, Maven, TravisCI, Git",
-  date: "May 2018 - May 2020",
-  [Developed a Minecraft server plugin to entertain kids during free time for a previous job],
-  [Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review],
-  [Implemented continuous delivery using TravisCI to build the plugin upon new a release],
-  [Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin]
+  name: "Personal PC",
+  skills: "Windows Config, Booloaders, Linux Distros, PC Assembly, Remote Desktops",
+  date: "July 2022",
+  [Built a personal PC from scratch using parts I researched and picked],
+  [Leanred how to assemble the parts correctly and safely],
+  [Set up a remote connection so I can use the PC from wherever I am]
 )
 
 #resume_heading("Technical Skills")
