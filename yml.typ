@@ -1,4 +1,4 @@
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item
+#import "template.typ": resume, header, resume_heading, edu_item, exp_item, activity_item, project_item, skill_item
 
 
 #let yml_personal(d) = {
@@ -32,6 +32,19 @@
       location: exp.location,
       date: exp.date,
       .. exp.points
+    )
+  }
+}
+
+#let yml_activites(d) = {
+  resume_heading[Activities]
+  for act in d {
+    project_item(
+      name: act.name,
+      skills: act.skills,
+      date: act.date,
+      place :act.place,
+      ..act.points
     )
   }
 }

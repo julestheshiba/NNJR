@@ -1,59 +1,62 @@
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item
+#import "template.typ": resume, header, resume_heading, edu_item, exp_item, activity_item, project_item, skill_item
 
 #show: resume
 
 #header(
-  name: "Jake Ryan",
-  phone: "123-456-7890",
-  email: "jake@su.edu",
-  linkedin: "linkedin.com/in/jake",
-  site: "github.com/jake",
+  name: "Will Metz",
+  phone: "415-328-9921 ",
+  email: "u1427699@utah.edu",
+  linkedin: "linkedin.com/in/will-metz-9287062ab/",
+  site: "github.com/julestheshiba",
 )
 
 #resume_heading[Education]
 #edu_item(
-  name: "Southwestern University",
-  degree: "Bachelor of Arts in Computer Science, Minor in Business",
-  location: "Georgetown, TX",
-  date: "Aug. 2018 - May 2021"
+  name: "Univerisity of Utah",
+  degree: "Bachelors of Science, Software Development Student",
+  location: "Salt Lake City",
+  date: "Aug. 2022 - May 2026"
 )
 #edu_item(
-  name: "Blinn College",
+  name: "College of Marin",
   degree: "Associate's in Liberal Arts",
-  location: "Bryan, TX",
-  date: "Aug. 2014 - May 2018"
+  location: "Kentfield, CA",
+  date: "Aug. 2019 - May 2022"
 )
 
 #resume_heading[Experience]
 #exp_item(
-  role: "Undergraduate Research Assistant",
-  name: "Texas A&M University",
-  location: "College Station, TX",
-  date: "June 2020 - Present",
-  [Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems],
-  [Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data],
-  [Explored ways to visualize GitHub collaboration in a classroom setting]
+  role: "Security Operations Center Intern",
+  name: "Legato Security",
+  location: "Salt Lake City, UT",
+  date: "March 2024 - Present",
+  [Investigating Jira security ticketsa and Analyzing security threats],
+  [Work with scripts to automate processes],
+  [se of multiple query languages (Crowdstrike, Sumo, etc)],
+  [Use of tools such as, Crowdstrike, Cortex, Sentinel One, etc],
+  [Use of Linux terminal commands to investigate host file systems],
+  [Using virtual machines and dockers to investigate potentially malicious files],
 )
 #exp_item(
-  role: "Information Technology Support Specialist",
-  name: "Southwestern University",
-  location: "Georgetown, TX",
-  date: "Sep. 2018 - Present",
-  [Communicate with managers to set up campus computers used on campus],
-  [Assess and troubleshoot computer problems brought by students, faculty and staff],
-  [Maintain upkeep of computers, classroom equipment, and 200 printers across campus]
+  role: "Lift/Gate Attendant",
+  name: "Snowbird",
+  location: "Snowbird, Ut",
+  date: "May 2022 - March 2024",
+  [Working in a team of others to solve issues],
+  [Working with special ticketing systems to ensure smooth operations],
+  [Working with heavy machinery including ski lifts]
 )
-#exp_item(
-  role: "Artificial Intelligence Research Assistant",
-  name: "Southwestern University",
-  location: "Georgetown, TX",
-  date: "May 2019 - July 2019",
-  [Explored methods to generate video game dungeons based off of #emph[The Legend of Zelda]],
-  [Developed a game in Java to test the generated dungeons],
-  [Contributed 50K+ lines of code to an established codebase via Git],
-  [Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable],
-  [Wrote an 8-page paper and gave multiple presentations on-campus],
-  [Presented virtually to the World Conference on Computational Intelligence]
+
+#resume_heading("Activities")
+#activity_item(
+  name: "Computer Science Club",
+  skills: "Github, C/C++",
+  location: "Kentfield, CA",
+  place: "College of Marin",
+  date: "Sep 2021 - May 2022",
+  [Participated in Computer Science club events],
+  [Helped club founding members with community outreach and events],
+  [Helped work with a collabarative GiHub repo]
 )
 
 #resume_heading("Projects")
@@ -79,15 +82,15 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R"
+  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, FQL (Crowdstrike), Sumo Query Language"
 )
 #skill_item(
-  category: "Frameworks",
-  skills: "React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI"
+  category: "Cybersecurity Consoles",
+  skills: "Crowdstrike, Sumologic, Stellar Cyber, Cortex, Area 1, Sentinel One"
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse"
+  skills: "Git, Docker, VS Code, Visual Studio, IntelliJ, Eclipse"
 )
 #skill_item(
   category: "Libraries",

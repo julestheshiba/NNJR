@@ -87,12 +87,39 @@
           _#name _
         ],
         align(right)[
-          #date \
-          _#location _
+          #location \
+          _#date _
         ]
       )
       #list(..points)
     ])
+}
+
+
+#let activity_item(
+  name: "Example Activity",
+  skills: "Programming Language 1",
+  date: "May 1234 - June 4321",
+  location: "Foo, BA",
+  place: "placetown",
+  ..points
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, box[
+    #grid(
+      columns: (3fr, 1fr),
+      align(left)[
+        *#name* | 
+        _#skills _ #h(1fr) \
+        _#place _
+      ],
+      align(right)[
+        #location \
+        _#date _
+      ]
+    )
+    #list(..points)
+  ])
 }
 
 #let project_item(
