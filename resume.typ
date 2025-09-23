@@ -81,8 +81,6 @@
   date: "Ongoing",
   [Developed an eartquake physics simulation gaming using QT and C++],
   [Created a database from scratch using SQL],
-  [Developed a mobile drawing app using Kotlin and Android Studio],
-  [Created a canvas type website using React and Tailwind]
 )
 
 #resume_heading("Technical Skills")
