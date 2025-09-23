@@ -32,7 +32,7 @@
   date: "March 2024 - Present",
   [Investigating Jira security tickets and analyzing security threats],
   [Work with scripts to automate processes],
-  [se of multiple query languages (Crowdstrike, Sumo, etc)],
+  [Use of multiple query languages (Crowdstrike, Sumo, etc)],
   [Use of tools such as, Crowdstrike, Cortex, Sentinel One, etc],
   [Use of Linux terminal commands to investigate host file systems],
   [Using virtual machines and dockers to investigate potentially malicious files],
@@ -61,6 +61,13 @@
 
 #resume_heading("Projects")
 #project_item(
+  name: "Home Server",
+  skills: "Windows Config, Booloaders, Tailscale, Cloudflare, Google Cloud",
+  date: "July 2023",
+  [Setup a personal server based on an old mini pc to host game servers],
+  [Needed to reroute traffic through a proxy in order to avoid port forwarding]
+)
+#project_item(
   name: "Personal PC",
   skills: "Windows Config, Booloaders, Linux Distros, PC Assembly, Remote Desktops",
   date: "July 2022",
@@ -72,15 +79,15 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (Crowdstrike), Sumo Query Language, SQL"
+  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (Crowdstrike), Sumo Query Language, SQL, x86, MIPS"
 )
 #skill_item(
-  category: "Cybersecurity Consoles",
-  skills: "Crowdstrike, Sumologic, Stellar Cyber, Cortex, Area 1, Sentinel One"
+  category: "Software",
+  skills: "Crowdstrike, Sumologic, Stellar Cyber, Cortex, Area 1, Sentinel One, Adobe Photoshop/Illustrator, AWS, Docker, Eclipse, JetBrains IDEs, LaTeX, Linux, MacOS, Microsoft Office, Slack, Wireguard, Tailscale, VMWare, VSCode"
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, VS Code, Visual Studio, IntelliJ, Eclipse"
+  skills: "Git, Docker, VS Code, Visual Studio, IntelliJ, Eclipse, Neovim"
 )
 #skill_item(
   category: "Libraries",
