@@ -75,11 +75,20 @@
   [Leanred how to assemble the parts correctly and safely],
   [Set up a remote connection so I can use the PC from wherever I am]
 )
+#project_item(
+  name: "Class Projects",
+  skills: "C/C++, C#, QT, SQL, Kotlin, HTML/CSS, Tailwind, React",
+  date: "Ongoing",
+  [Developed an eartquake physics simulation gaming using QT and C++],
+  [Created a database from scratch using SQL],
+  [Developed a mobile drawing app using Kotlin and Android Studio],
+  [Created a canvas type website using React and Tailwind]
+)
 
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (Crowdstrike), Sumo Query Language, SQL, x86, MIPS"
+  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (Crowdstrike), Sumo Query Language, SQL, x86, MIPS, Kotlin, Tailwind, React"
 )
 #skill_item(
   category: "Software",
