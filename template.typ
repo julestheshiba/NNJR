@@ -10,8 +10,8 @@
   )
 
   set text(
-    size: 11pt,
-      font: "New Computer Modern",
+    size: 10pt,
+      font: "Times New Roman",
   )
   
   body
