@@ -13,13 +13,13 @@
 #resume_heading[Education]
 #edu_item(
   name: "Univerisity of Utah",
-  degree: "Bachelors of Science, Software Development Student",
+  degree: "Bachelor of Science, Software Development Student",
   location: "Salt Lake City",
   date: "Aug. 2022 - May 2026"
 )
 #edu_item(
   name: "College of Marin",
-  degree: "Associate's in Liberal Arts",
+  degree: "Associate in Liberal Arts",
   location: "Kentfield, CA",
   date: "Aug. 2019 - May 2022"
 )
@@ -29,7 +29,7 @@
   role: "Security Operations Center Intern",
   name: "Legato Security",
   location: "Salt Lake City, UT",
-  date: "March 2024 - Present",
+  date: "March 2024 - October 2024",
   [Investigated and triaged security incidents through Jira by analyzing alerts and identifying potential threats],
   [Developed and maintained scripts to automate repetitive SOC workflows, improving investigation efficiency],
   [Queried and correlated security data using multiple query languages (CrowdStrike FQL, Sumo Logic) to detect malicious activity],
@@ -102,5 +102,9 @@
 )
 #skill_item(
   category: "Soft Skills",
-  skills: "Communication, Customer Service, Documentation, Inventory, Money Management/Handling, Presentation Skills, Teaching, Teamwork, Time Management"
+  skills: "Communication, Customer Service, Documentation, Inventory, Financial Management/Handling, Presentation Skills, Teaching, Teamwork, Time Management"
+)
+#skill_item(
+  category: "Hobbies",
+  skills: "Repairing Cars, Repairing Old Electronics, Model Trains, Skiing, Hiking, Plant Identification"
 )
