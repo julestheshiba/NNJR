@@ -37,15 +37,6 @@
   [Conducted host-based investigations using Linux commandline tools to analyze file systems and running processes],
   [Analyzed suspicious files in isolated environments using virtual machines and Docker to prevent system compromise],
 )
-#exp_item(
-  role: "Lift/Gate Attendant",
-  name: "Snowbird",
-  location: "Snowbird, UT",
-  date: "May 2022 - March 2024",
-  [Collaborated with team members to resolve operational issues and ensure guest safety and satisfaction],
-  [Operated and managed specialized ticketing systems to maintain efficient lift access and minimize delays],
-  [Assisted with the operation and monitoring of heavy machinery, adhering to safety protocols in high-traffic environments]
-)
 
 #resume_heading("Activities")
 #activity_item(
@@ -61,22 +52,28 @@
 
 #resume_heading("Projects")
 #project_item(
-  name: "Personal Projects",
-  skills: "Windows Config, Bootloaders, Tailscale, Cloudflare, Google Cloud, Linux Distros, PC Assembly, Remote Desktops, Rust, REST APIs, AirLabs API, Discord API, Async Programming, JSON Parsing",
+  name: "Personal NAS/Homelab Server",
+  skills: "Linux, Docker, OpenMediaVault, Tailscale, Cloudflare, Networking, RAID, System Administration",
   date: "Ongoing",
-  [Designed and deployed a personal home server to host multiplayer game services on repurposed hardware],
-  [Implemented secure traffic routing using Tailscale, Cloudflare, and cloud infrastructure to avoid direct port forwarding],
-  [Researched, selected, and assembled a custom PC, gaining hands-on experience with hardware compatibility and system configuration],
-  [Installed and configured multiple operating systems, including Linux distributions and Windows],
-  [Set up secure remote desktop access to enable system use from any location],
-  [Designed and developed a Discord bot in Rust that tracks live flight status and displays realtime progress using the AirLabs API],
-  [Implemented asynchronous request handling to efficiently manage API calls and reduce response latency],
-  [Collaborated with maintainers of a public GitHub repository by submitting pull requests, addressing code review feedback, and following established contribution standards],
-
+  [Designed and built a multi-purpose home server on repurposed hardware for centralized file storage, automated backups, media streaming, and multiplayer game hosting],
+  [Configured RAID storage arrays for data redundancy and implemented automated backup schedules to protect against data loss],
+  [Deployed containerized services using Docker for isolated application environments and simplified service management],
+  [Implemented secure remote access architecture using Tailscale VPN mesh network and Cloudflare tunneling to avoid direct port forwarding and reduce attack surface],
+  [Managed multiple virtual machines and containers for testing different Linux distributions and service configurations],
+  [Established security hardening practices including SSH key authentication, firewall configuration, and principle of least privilege for user permissions]
+)
+#project_item(
+  name: "Open Source Collaboration - Flight Tracker Discord Bot",
+  skills: "Rust, Discord API, AirLabs API, REST APIs, Async Programming, JSON Parsing, Git, GitHub",
+  date: "Ongoing",
+  [Contributed to a public Discord bot repository by implementing flight tracking features using Rust and the AirLabs API],
+  [Collaborated with repository maintainers through GitHub pull requests, addressing code review feedback and adhering to project coding standards],
+  [Implemented asynchronous request handling to efficiently manage API calls and display real-time flight progress updates],
+  [Parsed and processed JSON data from REST APIs to extract and format flight information for Discord message embeds]
 )
 #project_item(
   name: "Class Projects",
-  skills: "C/C++, C#, QT, SQL, Kotlin, HTML/CSS, Tailwind, React",
+  skills: "C/C++, C#, Qt, SQL, Kotlin, HTML/CSS, Tailwind, React",
   date: "Ongoing",
   [Developed an earthquake physics simulation using C++ and Qt, applying physics concepts and real-time rendering],
   [Designed and implemented relational databases from scratch using SQL],
