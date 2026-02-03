@@ -1,4 +1,4 @@
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, activity_item, project_item, skill_item
+#import "template.typ": activity_item, edu_item, exp_item, header, project_item, resume, resume_heading, skill_item
 
 #show: resume
 
@@ -15,13 +15,13 @@
   name: "Univerisity of Utah",
   degree: "Bachelor of Science, Software Development Student",
   location: "Salt Lake City",
-  date: "Aug. 2022 - May 2026"
+  date: "Aug. 2022 - May 2026",
 )
 #edu_item(
   name: "College of Marin",
   degree: "Associate in Liberal Arts",
   location: "Kentfield, CA",
-  date: "Aug. 2019 - May 2022"
+  date: "Aug. 2019 - May 2022",
 )
 
 #resume_heading[Experience]
@@ -47,7 +47,7 @@
   date: "Sep 2021 - May 2022",
   [Participated in technical workshops and club events focused on programming and software development],
   [Supported founding members with community outreach, helping grow club participation],
-  [Collaborated on shared GitHub repositories, contributing code and documentation in a team environment]
+  [Collaborated on shared GitHub repositories, contributing code and documentation in a team environment],
 )
 
 #resume_heading("Projects")
@@ -59,8 +59,7 @@
   [Configured RAID storage arrays for data redundancy and implemented automated backup schedules to protect against data loss],
   [Deployed containerized services using Docker for isolated application environments and simplified service management],
   [Implemented secure remote access architecture using Tailscale VPN mesh network and Cloudflare tunneling to avoid direct port forwarding and reduce attack surface],
-  [Managed multiple virtual machines and containers for testing different Linux distributions and service configurations],
-  [Established security hardening practices including SSH key authentication, firewall configuration, and principle of least privilege for user permissions]
+  [Established security hardening practices including SSH key authentication, firewall configuration, and principle of least privilege for user permissions],
 )
 #project_item(
   name: "Open Source Collaboration - Flight Tracker Discord Bot",
@@ -69,39 +68,33 @@
   [Contributed to a public Discord bot repository by implementing flight tracking features using Rust and the AirLabs API],
   [Collaborated with repository maintainers through GitHub pull requests, addressing code review feedback and adhering to project coding standards],
   [Implemented asynchronous request handling to efficiently manage API calls and display real-time flight progress updates],
-  [Parsed and processed JSON data from REST APIs to extract and format flight information for Discord message embeds]
+  [Parsed and processed JSON data from REST APIs to extract and format flight information for Discord message embeds],
 )
 #project_item(
   name: "Class Projects",
-  skills: "C/C++, C#, Qt, SQL, Kotlin, HTML/CSS, Tailwind, React",
+  skills: "C/C++, C#, Qt, SQL, Kotlin, HTML/CSS, Tailwind, React, KiCad, Embedded Systems, STM32, Microcontroller Programming",
   date: "Ongoing",
   [Developed an earthquake physics simulation using C++ and Qt, applying physics concepts and real-time rendering],
   [Designed and implemented relational databases from scratch using SQL],
-  [Built software and web projects across multiple languages and frameworks, strengthening full-stack development skills]
+  [Built software and web projects across multiple languages and frameworks, strengthening full-stack development skills],
+  [Designed and fabricated a custom PCB using KiCad for an embedded systems project with an STM32 microcontroller],
+  [Programmed STM32 microcontroller in C to interface with hardware peripherals and control circuit behavior],
 )
 
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (CrowdStrike), Sumo Query Language, SQL, x86, MIPS, Kotlin, Tailwind, React"
+  skills: "Java, Python, C/C++, C#, HTML/CSS, Rust, Typst, FQL (CrowdStrike), Sumo Query Language, SQL, x86, MIPS, Kotlin, Tailwind, React",
 )
 #skill_item(
   category: "Software",
-  skills: "CrowdStrike, Sumologic, Stellar Cyber, Cortex, Area 1, Sentinel One, Adobe Photoshop/Illustrator, AWS, Docker, Eclipse, JetBrains IDEs, LaTeX, Linux, MacOS, Microsoft Office, Slack, Wireguard, Tailscale, VMWare, VSCode"
+  skills: "CrowdStrike, Sumologic, Stellar Cyber, Cortex, Area 1, Sentinel One, Adobe Photoshop/Illustrator, AWS, Docker, Eclipse, JetBrains IDEs, LaTeX, Linux, MacOS, Microsoft Office, Slack, Wireguard, Tailscale, VMWare, VSCode",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, VS Code, Visual Studio, IntelliJ, Eclipse, Neovim"
-)
-#skill_item(
-  category: "Libraries",
-  skills: "pandas, NumPy, Matplotlib"
+  skills: "Git, Docker, VS Code, Visual Studio, IntelliJ, Eclipse, Neovim, Tmux, Wireshark, Linux CLI",
 )
 #skill_item(
   category: "Soft Skills",
-  skills: "Communication, Customer Service, Documentation, Inventory, Financial Management/Handling, Presentation Skills, Teaching, Teamwork, Time Management"
-)
-#skill_item(
-  category: "Hobbies",
-  skills: "Repairing Cars, Repairing Old Electronics, Model Trains, Skiing, Hiking, Plant Identification"
+  skills: "Communication, Customer Service, Documentation, Inventory, Financial Management/Handling, Presentation Skills, Teaching, Teamwork, Time Management",
 )
